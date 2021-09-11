@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class SharedPreferencesDemo extends StatefulWidget {
+class SharedPreferenceDemo extends StatefulWidget {
   final String title = 'Shared Preferences';
 
   @override
-  _SharedPreferencesDemoState createState() => _SharedPreferencesDemoState();
+  _SharedPreferenceDemoState createState() => _SharedPreferenceDemoState();
 }
 
-class _SharedPreferencesDemoState extends State<SharedPreferencesDemo> {
+class _SharedPreferenceDemoState extends State<SharedPreferenceDemo> {
   final counts = List<int>.filled(2, 0);
   SharedPreferences? pref;
 

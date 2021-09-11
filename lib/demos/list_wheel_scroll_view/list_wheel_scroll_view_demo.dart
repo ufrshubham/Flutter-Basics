@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatelessWidget {
+class ListWheelScrollViewDemo extends StatelessWidget {
   final String title = 'List Wheel Scroll';
 
   @override

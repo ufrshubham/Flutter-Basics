@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_star_rating/smooth_star_rating.dart';
 
-class MyHomePage extends StatelessWidget {
+class SmoothStarRatingDemo extends StatelessWidget {
   final String title = 'Smooth Star Rating';
 
   static const List<double> initialRating = [2, 3, 5, 4.5, 2.5];
