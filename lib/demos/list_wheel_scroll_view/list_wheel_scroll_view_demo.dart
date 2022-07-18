@@ -12,8 +12,6 @@ class ListWheelScrollViewDemo extends StatelessWidget {
       body: ListWheelScrollView.useDelegate(
         itemExtent: 200,
         diameterRatio: 3,
-        renderChildrenOutsideViewport: true,
-        clipBehavior: Clip.hardEdge,
         physics: BouncingScrollPhysics(),
         childDelegate: ListWheelChildBuilderDelegate(
           childCount: 100,

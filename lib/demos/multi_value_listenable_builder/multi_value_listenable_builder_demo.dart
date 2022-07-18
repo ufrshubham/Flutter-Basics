@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:multi_value_listenable_builder/multi_value_listenable_builder.dart';
 
 class MultiValueListenableBuilderDemo extends StatelessWidget {
+  final String title = 'Multi Value Listenable Builder';
   final ValueNotifier<int> alpha = ValueNotifier(255);
   final ValueNotifier<int> red = ValueNotifier(255);
   final ValueNotifier<int> green = ValueNotifier(255);
@@ -10,6 +11,9 @@ class MultiValueListenableBuilderDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text(title),
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

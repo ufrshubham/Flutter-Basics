@@ -48,6 +48,10 @@ class _DrawerDemoState extends State<DrawerDemo> {
       ),
       appBar: AppBar(
         title: Text(widget.title),
+        leading: IconButton(
+          onPressed: () => Navigator.of(context).pop(),
+          icon: Icon(Icons.arrow_back_rounded),
+        ),
       ),
       body: Center(
         child: Text(

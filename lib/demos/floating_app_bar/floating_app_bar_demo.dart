@@ -12,11 +12,9 @@ class FloatingAppBarDemo extends StatelessWidget {
             floating: true,
             elevation: 50.0,
             expandedHeight: 200,
-            flexibleSpace: Image.network(
-              'https://yt3.ggpht.com/ytc/AKedOLSdMhKMUtoCz6fEQdNjuvwNNu0_c37FaDgB3uPq=s176-c-k-c0x00ffffff-no-rj',
-              height: 150,
-              width: 150,
-              fit: BoxFit.cover,
+            flexibleSpace: FlutterLogo(
+              size: 150,
+              style: FlutterLogoStyle.horizontal,
             ),
           ),
           SliverList(

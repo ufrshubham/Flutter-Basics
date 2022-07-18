@@ -45,43 +45,46 @@ class _IndexedStackDemoState extends State<IndexedStackDemo> {
   }
 
   Widget _getNavigationButton() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      children: <Widget>[
-        TextButton(
-          child: Text(
-            'Red',
-            style: TextStyle(fontSize: 15.0),
+    return SizedBox(
+      height: 100,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: <Widget>[
+          TextButton(
+            child: Text(
+              'Red',
+              style: TextStyle(fontSize: 15.0),
+            ),
+            onPressed: () {
+              setState(() {
+                index = 0;
+              });
+            },
           ),
-          onPressed: () {
-            setState(() {
-              index = 0;
-            });
-          },
-        ),
-        TextButton(
-          child: Text(
-            'Blue',
-            style: TextStyle(fontSize: 15.0),
+          TextButton(
+            child: Text(
+              'Blue',
+              style: TextStyle(fontSize: 15.0),
+            ),
+            onPressed: () {
+              setState(() {
+                index = 1;
+              });
+            },
           ),
-          onPressed: () {
-            setState(() {
-              index = 1;
-            });
-          },
-        ),
-        TextButton(
-          child: Text(
-            'Green',
-            style: TextStyle(fontSize: 15.0),
+          TextButton(
+            child: Text(
+              'Green',
+              style: TextStyle(fontSize: 15.0),
+            ),
+            onPressed: () {
+              setState(() {
+                index = 2;
+              });
+            },
           ),
-          onPressed: () {
-            setState(() {
-              index = 2;
-            });
-          },
-        ),
-      ],
+        ],
+      ),
     );
   }
 }

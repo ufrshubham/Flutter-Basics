@@ -74,8 +74,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: child,
             );
           },
-          child: Image.network(
-              'https://lh3.googleusercontent.com/a-/AOh14GiH2FfWPKH5Z9FE98kYa3P-LuDDUPMR3B5U7g4X=s600-k-no-rp-mo'),
+          child: FlutterLogo(size: 200, style: FlutterLogoStyle.horizontal),
         ),
       ),
     );
