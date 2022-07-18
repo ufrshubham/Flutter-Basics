@@ -14,7 +14,7 @@ class MultiValueListenableBuilderDemo extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            MultiValueListenableBuider(
+            MultiValueListenableBuilder(
               valueListenables: [alpha, red, green, blue],
               builder: (context, values, child) {
                 return Container(
