@@ -8,10 +8,10 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  http: 0.13.4
+  http: 0.13.5
   shimmer: 2.0.0
-  cloud_firestore: 3.3.0
-  connectivity_plus: 2.3.6
+  cloud_firestore: 3.4.5
+  connectivity_plus: 2.3.6+1
   shared_preferences: 2.0.15
   multi_value_listenable_builder: 0.0.2
   smooth_star_rating:
@@ -20,7 +20,7 @@ dependencies:
       ref: dev
   flutter:
     sdk: flutter
-  cupertino_icons: 1.0.2
+  cupertino_icons: 1.0.5
 
 dev_dependencies:
   flutter_test:
