@@ -10,9 +10,9 @@ environment:
 dependencies:
   http: 0.13.5
   shimmer: 2.0.0
-  cloud_firestore: 3.5.0
-  connectivity_plus: 2.3.7
-  shared_preferences: 2.0.15
+  cloud_firestore: 4.3.1
+  connectivity_plus: 3.0.2
+  shared_preferences: 2.0.16
   multi_value_listenable_builder: 0.0.2
   smooth_star_rating:
     git:
